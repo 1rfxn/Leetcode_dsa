@@ -7,7 +7,7 @@ class Solution {
         {
             if(height[left] < height[ryt])
             {
-                if(height[left] >= lmax)
+                if(height[left] > lmax)
                 lmax = height[left];
                 else
                 water += (lmax - height[left]);
@@ -15,7 +15,7 @@ class Solution {
             }
             else
             {
-                if(height[ryt] >= rmax)
+                if(height[ryt] > rmax)
                 rmax = height[ryt];
                 else
                 water += rmax - height[ryt];
