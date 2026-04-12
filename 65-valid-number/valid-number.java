@@ -33,3 +33,7 @@ class Solution {
         return res;
     }
 }
+
+//return s.matches("[+-]?(\\d+\\.?\\d*)|(\\.\\d+)([Ee][+-]?\\d+)?");
+
+
