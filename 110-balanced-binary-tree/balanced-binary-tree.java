@@ -29,6 +29,6 @@ class Solution {
             return -1;
         if(Math.abs(l - ryt) > 1)
             return -1;
-        return 1 + Math.max(height(r.left),height(r.right));
+        return 1 + Math.max(l,ryt);
     }
 }
