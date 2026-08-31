@@ -10,8 +10,8 @@
  */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        int n1 = 0;
-        int n2 = 0;
+        Long n1 = 0l;
+        Long n2 = 0l;
         ListNode d1 = l1;
         ListNode d2 = l2;
         while(d1 != null)
@@ -24,7 +24,7 @@ class Solution {
             n2 = n2 * 10 + d2.val;
             d2 = d2.next;
         }
-        int n = n1 + n2;
+        Long n = n1 + n2;
         String num = n + "";
         ListNode res = new ListNode();
         ListNode dmy = res;
