@@ -1,6 +1,6 @@
 # 📝 4. Median of Two Sorted Arrays (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/median-of-two-sorted-arrays/?envType=problem-list-v2&envId=wi6n74km)
+🔗 [Problem Link](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Hard-red) ![Language](https://img.shields.io/badge/Language-Java-blue)
 

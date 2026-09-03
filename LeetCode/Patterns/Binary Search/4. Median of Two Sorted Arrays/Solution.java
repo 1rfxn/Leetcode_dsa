@@ -15,7 +15,7 @@ class Solution {
         while(j < nums2.length)
             num[idx++] = nums2[j++];
         if(num.length % 2 == 0)
-            return (num[num.length / 2] + num[(num.length / 2) - 1]) / 2.;
+            return (num[num.length / 2] + num[(num.length / 2) - 1]) / 2.0;
         else
             return num[num.length / 2];
     }
